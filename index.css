@@ -74,13 +74,16 @@ h3 {
 
 ul {
     list-style: none;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 10px;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
     background-color: #333333;
+}
+
+.stick {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
 }
 
 .contact {
