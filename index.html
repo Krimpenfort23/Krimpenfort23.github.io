@@ -7,7 +7,9 @@
     <body>
         <div id="wrap">
             <!-- picture Header -->
-            <h1>Picture goes here</h1>
+            <div class="imgbox">
+                <img class="photo" src="Website_Cover.JPEG">
+            </div>
 
             <ul class="stick">
                 <li><a>Home</a></li>
@@ -19,52 +21,76 @@
             </ul> 
             
             <!-- Home stuff - current events -->
-            <h1 class="header-home">Welcome to my Website</h1>
-            <ul class="home" style="column-count: 2;">
+            <h1 class="header-home">Welcome to<br>Evan Krimpenfort's<br>Website</h1>
+            <ul class="home" style="column-count: 2; margin-bottom: auto;">
                 <li class="home" style="width: auto;">
-                    <p>
-                        Hi! My name is Evan Krimpenfort and this is all that is about me.
-                        All of the work done on this website was done by me and only me because
-                        I wanted this to be a learning experience in web development... And
-                        GitHub allowed me to use their pages for free, but that's besides the point!
-                        I'm an avid learner and this is where I want to show it and keep an update
-                        on all of my work.
-                    </p>
+                    <div id="parent">
+                        <div id="child">
+                            <p class="text-home">
+                                ~ ~ ~<br><br>Hi! This is my website. A project I decided to do for 
+                                those who wanted to see some stuff about me.<br><br>~ ~ ~
+                            </p>
+                        </div>
+                    </div>
                 </li>
                 <li class="home" style="width: auto;">
-                    <p>
-
-                    </p>
+                    <div class="imgbox" style="margin: 0px 40px 0px 0px; height: 800px;">
+                        <img class="photo" src="Me_Photo.JPEG">
+                    </div>
                 </li>
             </ul>
+            <div class="home">
+                <p class="text-home-smaller">
+                    All of the work done on this website was done by me and only me because
+                    I wanted this to be a learning experience in web development...
+                </p>
+            </div>
+            <!-- <ul class="home" style="column-count: 2;">
+                <li class="home" style="width: auto;">
+                    <div class="imgbox" style="margin: 0px 40px 0px 0px;">
+                        <img class="photo" src="Me_Photo.JPEG">
+                    </div>
+                </li>
+                <li class="home" style="width: auto;">
+                    <p>
+                        And GitHub allowed me to use their pages for free (Shout out to 
+                        Github Pages!), but that's besides the point!
+
+                        I'm an avid learner and this is where I want to show it and keep an update
+                        on all of my work. My work ranges from working on electronics, building
+                        systems that help my life with some of my friends, creating music and 
+                        making it an outlet, and my love for 3D Printing. 
+                    </p>
+                </li>
+            </ul> -->
 
             <div>
                 <!-- Projects I'm working on and have worked on -->
-                <h1>~ My Projects ~</h1>
+                <h1 class="h1-regular">~ My Projects ~</h1>
                 <h2>Project Bonnie-And-Clyde</h2>
                 <!-- Add a collage here of what I've done -->
-                <p>Here is where I'm going to talk about my bonnie-and-clyde project.</p>
+                <p class="regular">Here is where I'm going to talk about my bonnie-and-clyde project.</p>
                 
                 <h2>Writing Albums</h2>
                 <!-- Add a collage here of what I've done -->
-                <p>Here is where I'm going to talk about my love for writing songs.</p>
+                <p class="regular">Here is where I'm going to talk about my love for writing songs.</p>
                 
                 <h2>Arduino Security Systems</h2>
                 <!-- Add a collage here of what I've done -->
-                <p>Here is where I'm going to talk about my security system projects.</p>
+                <p class="regular">Here is where I'm going to talk about my security system projects.</p>
 
                 <h2>TinkerVille</h2>
                 <!-- Add a collage here of what I've done -->
-                <p>Here is where I'm going to talk about my love for tinkering.</p>
+                <p class="regular">Here is where I'm going to talk about my love for tinkering.</p>
 
                 <h2>3D Printing Haven</h2>
                 <!-- Add a collage here of what I've done -->
-                <p>Here is where I'm going to talk about entrepreneurship through printing.</p>
+                <p class="regular">Here is where I'm going to talk about entrepreneurship through printing.</p>
 
                 <!-- Where you can contact me -->
-                <h1>~ Contact Me! ~</h1>
+                <h1 class="h1-regular">~ Contact Me! ~</h1>
 
-                <h3>
+                <ul class="home" style="column-count: 2;">
                     <img src="phone.jpg" 
                         alt="phone"
                         class="logoLeft">
@@ -72,20 +98,20 @@
                     <img src="email.png" 
                         alt="email"
                         class="logoRight">
-                </h3>
+                </ul>
                 
-                <h3>
+                <ul class="contact" style="column-count: 2;">
                     <p class="logoLeft">
                         Call me or send me a text at...<br><br>
                         <a>+1 (513) 655-8649<br><br></a>
-                        and I will try to answer or get back to you as soon as I can!
+                        and I will try to return the call as soon as I can!
                     </p>
                     <p class="logoRight">
                         Send me an email at...<br><br>
                         <a>evankrimp@gmail.com<br><br></a>
                         and I will answer back as quickly as I can!
                     </p>
-                </h3>
+                </ul>
             </div>
         </div>
     </body>

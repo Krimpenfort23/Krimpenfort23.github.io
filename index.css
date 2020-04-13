@@ -1,14 +1,27 @@
 body {
     font-family: Consolas;
+    background-color: #ffffff;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+.photo {
+    max-width: 100%;
+    max-height: 100vh;
+    zoom: normal;
+    margin: auto;
 }
 
 #wrap {
     max-width: 1000px;
-    min-width: 800px;
+    min-width: 1000px;
     margin: 0 auto;
 }
 
-h1 {
+.h1-regular {
     text-align: center;
     margin: 10px 0px;
     padding: 14px 14px 8px 14px;
@@ -16,16 +29,60 @@ h1 {
     background-color: #dddddd;
 }
 
+#parent {
+    display: table; 
+    width: 100%; 
+    height: 800px; 
+    text-align: center; 
+}
+#child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-home {
+    display: flex;
+    font-size: 40px; 
+    text-align: center;
+    margin: auto 40px;
+    vertical-align: middle;
+}
+
+.text-home-smaller {
+    display: flex;
+    font-size: 24px; 
+    text-align: center;
+    margin: 20px 300px;
+    vertical-align: middle;
+}
+
 .header-home {
     background-color: #ffffff;
     color: #101e4e;
-    font-family: Arial;
+    font-family: Cambria;
+    font-size: 56px;
+    margin: 90px 0px;
+    text-align: center;
+    padding: 14px 14px 8px 14px;
+    overflow: hidden;
 }
 
 .home {
     background-color: #ffffff;
     color: #101e4e;
-    font-family: Arial;
+    font-family: Cambria;
+    font-size: 18px;
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.contact {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Consolas;
+    font-size: larger;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -38,7 +95,7 @@ h2 {
     overflow: hidden;
 }
 
-p {
+.regular {
     text-align: justify;
     margin: 10px 40px 10px 40px;
     overflow: hidden;
@@ -62,6 +119,7 @@ h3 {
     width: 200px;
     height: 200px;
     text-align: justify;
+    overflow: hidden;
 }
 
 .logoRight {
@@ -70,6 +128,7 @@ h3 {
     width: 200px;
     height: 200px;
     text-align: justify;
+    overflow: hidden;
 }
 
 ul {
@@ -83,16 +142,7 @@ ul {
 .stick {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 10px;
-}
-
-.contact {
-    float: center;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #ffffff;
+    top: 0px;
 }
 
 li {
@@ -101,7 +151,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 14px 14px 10px 14px;
     text-decoration: none;
