@@ -33,8 +33,7 @@ body {
 }
 
 #parent {
-    display: table; 
-    height: 410px;
+    display: table;
     text-align: center; 
 }
 #child {
@@ -49,14 +48,6 @@ body {
     margin: auto 40px;
     vertical-align: middle;
     width: 520px;
-}
-
-.text-home-smaller {
-    display: flex;
-    font-size: 24px; 
-    text-align: center;
-    margin: 20px 300px;
-    vertical-align: middle;
 }
 
 .header-home {
@@ -76,7 +67,7 @@ body {
     font-family: Cambria;
     font-size: 18px;
     list-style: none;
-    margin: auto;
+    margin: 5px 0px;
     padding: 0px;
     overflow: hidden;
 }
@@ -117,7 +108,7 @@ h3 {
 }
 
 .logoLeft {
-    margin-left: 150px;
+    margin-left: 200px;
     float: left;
     width: 200px;
     height: 200px;
@@ -126,7 +117,7 @@ h3 {
 }
 
 .logoRight {
-    margin-right: 150px;
+    margin-right: 200px;
     float: right;
     width: 200px;
     height: 200px;
